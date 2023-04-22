@@ -8,7 +8,8 @@ Ans.- In React js multiple items can be declare as collection using component. T
 2. Under WrappedListComponent selectedIndex should be the variable and setSelectedIndex should be the function for useState hook.
 3. Inside return of WrappedListComponent key is not assign for items.map.
 4. Syntax Error in WrappedListComponent.propTypes. Protypes.array,proptypes.shapeof.
-5. WrappedListComponent defaultProps can not be null as mamping can't be done in null.
+5. isSelected is boolean proptypes and selectIndex is number(index) so converting to boolean is needed under items.map
+6. WrappedListComponent defaultProps can not be null as mapping can't be done in null.
 
 
 
